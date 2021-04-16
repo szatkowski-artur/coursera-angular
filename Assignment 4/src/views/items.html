@@ -1,0 +1,8 @@
+<div>
+    <h2>{{items.category.name}}</h2>
+    <i ng-if="items.category.special_instructions !== ''">
+        {{items.category.special_instructions}}
+    </i>
+    <br><br>
+    <items list="items.list"></items>
+</div>
